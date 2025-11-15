@@ -38,6 +38,6 @@
   "homepage": "https://github.com/brianwalkerdev/responsive-web-page-html-css#readme",
   "devDependencies": {
     "live-server": "^1.2.2",
-    "html-validator-cli": "^6.1.1"
+    "html-validator-cli": "^6.0.3"
   }
 }
