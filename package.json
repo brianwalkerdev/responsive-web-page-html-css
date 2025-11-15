@@ -1,1 +1,43 @@
-{\n  "name": "responsive-web-page-html-css",\n  "version": "1.0.0",\n  "description": "A mobile-first responsive portfolio webpage showcasing modern web development practices. Built with semantic HTML5 and CSS3, featuring responsive design, accessibility best practices[...]",\n  "main": "index.html",\n  "scripts": {\n    "start": "npx live-server --port=8080 --open=index.html",\n    "dev": "npx live-server --port=8080 --open=index.html --watch=.",\n    "build": "echo 'No build step required for static HTML/CSS project'",\n    "validate": "npx html-validator-cli --file=index.html --verbose"\n  },\n  "repository": {\n    "type": "git",\n    "url": "git+https://github.com/brianwalkerdev/responsive-web-page-html-css.git"\n  },\n  "keywords": [\n    "responsive-design",\n    "portfolio",\n    "html5",\n    "css3",\n    "mobile-first",\n    "web-development",\n    "front-end",\n    "accessibility",\n    "semantic-html",\n    "flexbox",\n    "media-queries"\n  ],\n  "author": {\n    "name": "Brian Walker",\n    "email": "bwalker206@gmail.com",\n    "url": "https://github.com/brianwalkerdev"\n  },\n  "license": "MIT",\n  "bugs": {\n    "url": "https://github.com/brianwalkerdev/responsive-web-page-html-css/issues"\n  },\n  "homepage": "https://github.com/brianwalkerdev/responsive-web-page-html-css#readme",\n  "devDependencies": {\n    "live-server": "^1.2.2",\n    "html-validator-cli": "^6.1.1"\n  }\n}
+{
+  "name": "responsive-web-page-html-css",
+  "version": "1.0.0",
+  "description": "A mobile-first responsive portfolio webpage showcasing modern web development practices. Built with semantic HTML5 and CSS3, featuring responsive design, accessibility best practices, and professional polish.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=8080 --open=index.html",
+    "dev": "npx live-server --port=8080 --open=index.html --watch=.",
+    "build": "echo 'No build step required for static HTML/CSS project'",
+    "validate": "npx html-validator-cli --file=index.html --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianwalkerdev/responsive-web-page-html-css.git"
+  },
+  "keywords": [
+    "responsive-design",
+    "portfolio",
+    "html5",
+    "css3",
+    "mobile-first",
+    "web-development",
+    "front-end",
+    "accessibility",
+    "semantic-html",
+    "flexbox",
+    "media-queries"
+  ],
+  "author": {
+    "name": "Brian Walker",
+    "email": "bwalker206@gmail.com",
+    "url": "https://github.com/brianwalkerdev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianwalkerdev/responsive-web-page-html-css/issues"
+  },
+  "homepage": "https://github.com/brianwalkerdev/responsive-web-page-html-css#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "html-validator-cli": "^6.0.3"
+  }
+}
