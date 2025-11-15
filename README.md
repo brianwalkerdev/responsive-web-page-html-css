@@ -181,7 +181,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **Brian Walker**  
 Front-End Developer | Responsive Design Specialist
 
-- 🌐 Website: [brianwalker.dev](https://brianwalker.dev)
+- 🌐 Website: [brianwalkerdev.github.io/responsive-web-page-html-css/](https://brianwalkerdev.github.io/responsive-web-page-html-css/)
 - 💼 GitHub: [@brianwalkerdev](https://github.com/brianwalkerdev)
 - 📧 Email: bwalker206@gmail.com
 - 📱 Phone: +1 (248) 555-7086
