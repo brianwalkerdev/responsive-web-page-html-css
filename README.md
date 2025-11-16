@@ -47,7 +47,7 @@ A mobile-first responsive portfolio website showcasing modern front-end developm
 
 ## 📦 Build & Deployment
 
-This is a static website that requires no build process. Deploy directly to any static hosting service:
+This is a static website that can be deployed as-is. A build process is optional and only organizes files into a `dist/` folder for certain deployment scenarios (e.g., Netlify). You can deploy directly to any static hosting service:
 
 ### Deploy to GitHub Pages
 Already configured! Push to `main` branch and enable GitHub Pages in repository settings.
