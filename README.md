@@ -59,6 +59,11 @@ npm run build
 Then drag the project folder to [Netlify](https://app.netlify.com/drop).
 
 ### Deploy to Vercel
+> **Prerequisite:** Install the Vercel CLI globally if you haven't already:
+> 
+> ```bash
+> npm install -g vercel
+> ```
 ```bash
 vercel --prod
 ```
