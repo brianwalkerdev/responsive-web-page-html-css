@@ -1,13 +1,16 @@
 {
   "name": "responsive-web-page-html-css",
   "version": "1.0.0",
-  "description": "A mobile-first responsive portfolio webpage showcasing modern web development practices. Built with semantic HTML5 and CSS3, featuring responsive design, accessibility best practices, and professional polish.",
+  "description": "A mobile-first responsive portfolio website showcasing modern front-end development skills. Built with semantic HTML5, CSS3, and accessibility best practices.",
   "main": "index.html",
   "scripts": {
     "start": "npx live-server --port=8080 --open=index.html",
     "dev": "npx live-server --port=8080 --open=index.html --watch=.",
-    "build": "echo 'No build step required for static HTML/CSS project'",
-    "validate": "npx html-validator-cli --file=index.html --verbose"
+    "build": "npm run build:prepare && npm run build:copy",
+    "build:prepare": "rm -rf dist && mkdir -p dist",
+    "build:copy": "cp -r index.html css images dist/ && echo 'Build complete! Static files ready in dist/ directory'",
+    "validate": "npx html-validator-cli --file=index.html --verbose",
+    "deploy": "npm run build && echo 'Ready for deployment! Upload dist/ folder to your hosting service'"
   },
   "repository": {
     "type": "git",
@@ -24,7 +27,8 @@
     "accessibility",
     "semantic-html",
     "flexbox",
-    "media-queries"
+    "media-queries",
+    "static-site"
   ],
   "author": {
     "name": "Brian Walker",
@@ -35,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/brianwalkerdev/responsive-web-page-html-css/issues"
   },
-  "homepage": "https://github.com/brianwalkerdev/responsive-web-page-html-css#readme",
+  "homepage": "https://brianwalkerdev.github.io/responsive-web-page-html-css",
   "devDependencies": {
     "live-server": "^1.2.2",
     "html-validator-cli": "^6.0.3"
