@@ -17,5 +17,5 @@ jobs:
           external_repository: brianwalkerdev/projects.brianwalker.dev
           publish_branch: main
           publish_dir: ./dist
-          destination_dir: responsive-web-page-html-css
+          destination_dir: responsive-personal-portfolio-website
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
