@@ -10,7 +10,7 @@ A mobile-first responsive portfolio website showcasing modern front-end developm
 
 ## 🌐 Live Demo
 
-**[View Live Site →](https://brianwalkerdev.github.io/responsive-personal-portfolio-website/)**
+**[View Live Site →](https://projects.brianwalker.dev/responsive-personal-portfolio-website/)**
 
 ## ✨ Features
 
